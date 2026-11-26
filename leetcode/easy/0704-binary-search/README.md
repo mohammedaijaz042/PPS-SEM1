@@ -43,8 +43,8 @@ Explanation: 2 does not exist in nums so return -1
 
 **Language:** C  
 **Runtime:** 0 ms  
-**Memory:** 8.3 MB  
-**Submitted:** 2026-11-26T17:37:25.012Z  
+**Memory:** 8.2 MB  
+**Submitted:** 2026-11-26T17:42:07.625Z  
 
 ```c
 int search(int arr[], int size, int key)
