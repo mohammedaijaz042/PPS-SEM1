@@ -42,33 +42,20 @@ Explanation: 2 does not exist in nums so return -1
 ## Solution
 
 **Language:** C  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 9.9 MB (beats 64.84%)  
-**Submitted:** 2026-11-26T17:11:28.103Z  
+**Runtime:** 0 ms  
+**Memory:** 8.3 MB  
+**Submitted:** 2026-11-26T17:37:25.012Z  
 
 ```c
-    int search(int* nums, int numsSize, int target) {
-    int left = 0;
-    int right = numsSize - 1;
-
-    while (left <= right) {
-        int mid = left + (right - left) / 2;
-
-        if (nums[mid] == target) {
-            return mid;
-        } else if (nums[mid] < target) {
-            left = mid + 1;
-        } else {
-            right = mid - 1;
-        }
+int search(int arr[], int size, int key)
+{
+    for (int i = 0; i < size; i++)
+    {
+        if (arr[i] == key)
+            return i;
     }
-
     return -1;
 }
-
-
-
-
 ```
 
 ---
