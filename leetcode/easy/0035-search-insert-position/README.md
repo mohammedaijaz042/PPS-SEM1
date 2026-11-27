@@ -49,11 +49,11 @@ Output: 4
 
 **Language:** C  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 8.8 MB (beats 56.09%)  
-**Submitted:** 2026-11-26T17:19:37.159Z  
+**Memory:** 8.8 MB (beats 82.92%)  
+**Submitted:** 2026-11-27T07:10:23.619Z  
 
 ```c
-int searchInsert(int* nums, int numsSize, int target) {
+    int searchInsert(int* nums, int numsSize, int target) {
 
     int low = 0;
     int high = numsSize - 1;
