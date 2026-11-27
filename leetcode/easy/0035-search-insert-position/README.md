@@ -49,8 +49,8 @@ Output: 4
 
 **Language:** C  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 8.8 MB (beats 55.00%)  
-**Submitted:** 2026-11-27T07:11:47.205Z  
+**Memory:** 8.8 MB (beats 82.92%)  
+**Submitted:** 2026-11-27T09:22:31.616Z  
 
 ```c
     int searchInsert(int* nums, int numsSize, int target) {
