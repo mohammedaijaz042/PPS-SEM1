@@ -1,4 +1,4 @@
-int searchInsert(int* nums, int numsSize, int target) {
+    int searchInsert(int* nums, int numsSize, int target) {
 
     int low = 0;
     int high = numsSize - 1;
